@@ -38,3 +38,29 @@ En kund ska kunna betala för det som finns i deras kundkorg varpå totalkostnad
 <br>
 
 ## Del.3
+Nu ska vi skapa några metoder för att återanvända funktionalitet
+
+`DisplayItems()` : ska ta in en array/dictionary av alla föremål som en parameter, iterera igenom dem och skrivat ut namnet och värdet på alla föremål. 
+
+Exempel:
+
+```csharp
+Console.WriteLine($"- {namn} : {pris}")
+```
+
+<br>
+
+`AddToCart()` : ska ta in en ``cart`` och `name` samt `price` på ett föremål som parametrar. Om ett föremål med samma namn redan finns i din `cart` så ska kostnaden på föremålet i carten ökas med föremålets pris. D.v.s. om det finns en penna med värde 5kr i cart så ska värdet på penann i kart bli till 10 kr. Om föremålet inte redan finns i carten så lägg till den i carten.
+
+När ett föremål lagts till eller fått ett uppdaterat värde så ska metoden returnera den uppdaterade carten
+
+<br>
+
+`RemoveFromCart()` : ska ta in en ``cart`` och `name` samt `price` på ett föremål som parametrar. Om ett föremål med samma namn som `name` från parametern så ska värdet på föremålet subtraheras med `price`. Om värdet på föremålet i cart är samma som `price` så ska föremålet tas bort ifrån `cart`. 
+
+I det fall att det inte finns ett föremål med samma namn som `name` i carten så ska metoden returnera carten utan att ta bort någonting. Annars så ska metoden returnera den uppdaterade carten.
+
+### Kriterier:
+
+### Länkar: 
+- [Methods - W3Schools](https://www.w3schools.com/cs/cs_methods.php)
