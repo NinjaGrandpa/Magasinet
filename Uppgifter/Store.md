@@ -64,3 +64,4 @@ I det fall att det inte finns ett föremål med samma namn som `name` i carten s
 
 ### Länkar: 
 - [Methods - W3Schools](https://www.w3schools.com/cs/cs_methods.php)
+- [Dictionary - TutorialsTeacher](https://www.tutorialsteacher.com/csharp/csharp-dictionary)
