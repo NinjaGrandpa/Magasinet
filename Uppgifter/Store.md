@@ -3,10 +3,21 @@
 ## Table of Contents
 ### [Del.1](#del1)
 ### [Del.2](#del2)
+### [Del.3](#del3)
 
 <br>
 
-![Del.1](/Uppgifter/Store/Del-1.md)
+## Del.1
+Skapa en konsollapplikation som skall agera som en affär. Affären ska ha minst tre varor med tre olika priser. När namnet eller en förkortning av namnet skrivs in i konsolen ska kostnaden av varan dras bort ifrån kundens saldo.
+
+### Kriterier:
+- Tre varor med tre priser
+- Saldo som ändras när man köper en vara
+
+### Länkar:
+- [User Input - W3Schools](https://www.w3schools.com/cs/cs_user_input.php)
+- [Switch Statements - W3Schools](https://www.w3schools.com/cs/cs_switch.php)
+- [While Loop - W3Schools](https://www.w3schools.com/cs/cs_while_loop.php)
 
 <br>
 
@@ -24,4 +35,6 @@ En kund ska kunna betala för det som finns i deras kundkorg varpå totalkostnad
 ### Länkar:
 - [Arrays - W3Schools](https://www.w3schools.com/cs/cs_arrays.php)
   
+<br>
 
+## Del.3
