@@ -1,9 +1,24 @@
 # Store - Uppgift
 
 ## Table of Contents
+### [Side Quests](#side-quests)
 ### [Del.1](#del1)
 ### [Del.2](#del2)
 ### [Del.3](#del3)
+### [Del.4](#del4)
+
+<br>
+
+## Side Quests:
+- Töm cart efter checkout
+- Sätt att se alla tillgängliga commands, t.ex. att `help` visar alla tillgängliga commands
+- Command för att se `balance`
+- Lägg till ett saldo till alla föremål: `amountInStock`
+- Ge respons på om man skriver in fel command, föremål eller om man har för lite pengar
+- Lägg till så att om man skriver en siffra efter föremålet så kan man köpa/ta-bort *n*-mängd föremål: `add glasses 5` lägger till 5 glasögon i kundvagnen och `remove glasses 5` tar-bort 5 glasögon
+- Fixa så att input kan ta in strängar som inte bryr sig om versaler och gemener, t.ex. `AdD GlasSeS`  => `add glasses` 
+- Lägg till ett command för att stänga av programmet
+- Ändra
 
 <br>
 
@@ -65,3 +80,20 @@ I det fall att det inte finns ett föremål med samma namn som `name` i carten s
 ### Länkar: 
 - [Methods - W3Schools](https://www.w3schools.com/cs/cs_methods.php)
 - [Dictionary - TutorialsTeacher](https://www.tutorialsteacher.com/csharp/csharp-dictionary)
+
+<br>
+
+## Del.4
+Skapa två klasser, `Cart` och `Item`. `Cart` ska innehålla ett property som är en lista med items och en som håller i summan för alla items. `Item` ska ha tre properties, Namn på en vara och vad den kostar.
+
+### Kriterier:
+#### Cart
+- Lista med items
+- Summa
+
+#### Item
+- Namn
+- Kostnad
+
+### Länkar:
+- [Classes - W3Schools](https://www.w3schools.com/cs/cs_classes.php)

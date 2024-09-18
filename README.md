@@ -4,9 +4,11 @@ Välkommen till **Magasinet**!
 
 ## Uppgifter
 ### [Store](/Uppgifter/Store.md)
+- [Side Quests](/Uppgifter/Store.md#side-quests)
 - [Del.1](/Uppgifter/Store.md#del1)
 - [Del.2](/Uppgifter/Store.md#del2)
 - [Del.3](/Uppgifter/Store.md#del3)
+- [Del.4](/Uppgifter/Store.md#del4)
 
 <br>
 
